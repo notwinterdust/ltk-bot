@@ -1,0 +1,15 @@
+[project]
+name = "ltk-bot"
+version = "0.1.0"
+description = "LTK Discord bot."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "discord.py==2.6.4",
+    "python-dotenv==1.0.1",
+]
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.package-dir]
+"" = "src"
